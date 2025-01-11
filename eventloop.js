@@ -42,9 +42,6 @@ fs.readFile("file.text", "utf8", () => {
 });
 
 setTimeout(() => {
-  setTimeout(() => {
-    console.log("setTimeout-2");
-  }, 0);
   console.log("setTimeout-1");
 }, 0);
 
